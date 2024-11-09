@@ -1,0 +1,3 @@
+C:\Users\wiju\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Systemprogramming.dir/objects.a
+C:\Users\wiju\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\Systemprogramming.dir/objects.a @CMakeFiles\Systemprogramming.dir\objects1.rsp
+C:\Users\wiju\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Systemprogramming.dir/objects.a -Wl,--no-whole-archive -o Systemprogramming.exe -Wl,--out-implib,libSystemprogramming.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Systemprogramming.dir\linkLibs.rsp
